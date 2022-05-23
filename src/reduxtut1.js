@@ -32,7 +32,7 @@ const reducer = (state = initialState, action) => {
       //action type matches
       return {
         ...state,
-        numofcake: this.state.numofcake - 1,
+        numofcake: state.numofcake - 1,
       };
 
     default:
